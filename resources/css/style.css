@@ -205,8 +205,6 @@ header {
 
 
 
-
-
 /* ================================================== */
 /* MEALS SECTION */
 /* ================================================== */
@@ -242,4 +240,56 @@ header {
 .meal-photo img:hover {
     transform: scale(1.03);
     opacity: 1;
+}
+
+
+
+/* ================================================== */
+/* HOW IT WORKS */
+/* ================================================== */
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.omni-app {
+    width: 40%;
+}
+
+.work-steps {
+    margin-bottom: 50px;
+}
+
+.work-steps:last-of-type {
+    margin-bottom: 80px;
+}
+
+.work-steps div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%; /* rounded */
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
