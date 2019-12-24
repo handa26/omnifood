@@ -143,7 +143,8 @@ a:active {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px; /* rounded corner */
+    border-radius: 200px;
+    /* rounded corner */
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -161,13 +162,15 @@ a:active {
     color: #e67e22
 }
 
-.btn:hover, 
+.btn:hover,
 .btn:active {
     background-color: #cf6d17;
 }
+
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #cf6d17;;
+    border: 1px solid #cf6d17;
+    ;
 }
 
 .btn-ghost:hover,
@@ -182,7 +185,8 @@ a:active {
 /* HEADER */
 /* ================================================== */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg); /* darker bg */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    /* darker bg */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -222,7 +226,8 @@ header {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%; /* Divided by base font size "20px" */
+    font-size: 90%;
+    /* Divided by base font size "20px" */
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
@@ -244,7 +249,7 @@ header {
 
 
 /* ================================================== */
-/* MEALS SECTION */
+/* MEALS SHOWCASE */
 /* ================================================== */
 .section-meals {
     padding: 0;
@@ -265,7 +270,8 @@ header {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #000; /* darker background correlation with opacity */
+    background-color: #000;
+    /* darker background correlation with opacity */
 }
 
 .meal-photo img {
@@ -275,6 +281,7 @@ header {
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
 }
+
 .meal-photo img:hover {
     transform: scale(1.03);
     opacity: 1;
@@ -316,7 +323,8 @@ header {
     color: #e67e22;
     border: 2px solid #e67e22;
     display: inline-block;
-    border-radius: 50%; /* rounded */
+    border-radius: 50%;
+    /* rounded */
     height: 55px;
     width: 55px;
     text-align: center;
@@ -355,7 +363,7 @@ header {
 
 
 /* ================================================== */
-/* SECTION TESTIMONIALS */
+/* TESTIMONIALS */
 /* ================================================== */
 .section-testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
