@@ -494,3 +494,85 @@ input[type=checkbox] {
 *:focus {
     outline: none;
 }
+
+
+
+/* ================================================== */
+/* FOOTER */
+/* ================================================== */
+footer {
+    background: #333;
+    /* height: 30vh; */
+    padding: 60px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-media {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-media li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-media li a:link,
+.social-media li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-media li a:link,
+.social-media li a:visited {
+    font-size: 150%;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.reddit {
+    transition: color 0.2s;
+}
+
+.facebook:hover {
+    color: #3b5999;
+}
+
+.instagram:hover {
+    color: #e4405f;
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+
+.reddit:hover {
+    color: #ff5700;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+}
