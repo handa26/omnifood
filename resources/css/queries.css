@@ -26,6 +26,56 @@
         font-size: 42px;
         margin: 0 auto;
     }
+
+    .meal-photo img {
+        opacity: 0.7;
+        width: 100%;
+        height: auto;
+        transform: scale(1.10);
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .meal-photo img:hover {
+        transform: scale(1.8);
+        opacity: 1;
+    }
+
+    .city-feature {
+        text-align: left;
+    }
+
+    .city-feature:last-child {
+        margin-bottom: 4%;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+    .btn-center {
+        text-align: center;
+    }
+
+    .btn-left {
+        text-align: left;
+    }
+
+    .mb {
+        margin-bottom: 4%;
+    }
+
+    .hero-text-box {
+        font-size: 85%;
+    }
+
+    .plan-box h3,
+    .plan-price-meal {
+        text-align: center;
+    }
+
+    .plan-price {
+        text-align: center;
+    }
 }
 
 
