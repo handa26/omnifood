@@ -20,6 +20,9 @@
 
     <!-- Ionicons font -->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="vendors/css/animate.css">
 </head>
 
 <body>
@@ -28,25 +31,29 @@
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="omnifood-logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                <img src="resources/img/logo.png" alt="omnifood-logo" class="black-logo">
+                <ul class="main-nav cf js--main-nav">
+                    <li><a href="#food">Food delivery</a></li>
+                    <li><a href="#steps">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#signup">Sign up</a></li>
                 </ul>
+                <a class="ham-icon js--nav-icon">
+                    <ion-icon name="menu" class="menu"></ion-icon>
+                </a>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-            <div class="btn-left">
-                <a class="btn btn-full mb" href="#">I’m hungry</a>
-                <a class="btn btn-ghost mb" href="#">Show me more</a>
+            <div class="btn-left cf">
+                <a class="btn btn-full mb" href="#signup">I’m hungry</a>
+                <a class="btn btn-ghost mb" href="#food">Show me more</a>
             </div>
         </div>
     </header>
 
     <!-- Features -->
-    <section class="section-features">
+    <section class="section-features js--section-features" id="food">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-paragraph">
@@ -54,7 +61,7 @@
                 No time for cooking. So let us take care of that, we’re really good at it, we promise!
             </p>
         </div>
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <ion-icon name="calendar" class="sm-icon"></ion-icon>
                 <h3>Up to 365 days/year</h3>
@@ -138,13 +145,13 @@
     <div style="clear:both"></div>
 
     <!-- How it works -->
-    <section class="section-steps">
+    <section class="section-steps" id="steps">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/img/app-iPhone.png" alt="omnifood-app" class="omni-app">
+                <img src="resources/img/app-iPhone.png" alt="omnifood-app" class="omni-app js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="work-steps">
@@ -169,11 +176,11 @@
     </section>
 
     <!-- Cities -->
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
                 <img src="resources/img/lisbon-3.jpg" alt="lisbon">
                 <h3>Lisbon</h3>
@@ -275,13 +282,13 @@
     </section>
 
     <!-- Subscribe/Plans -->
-    <section class="section-plans">
+    <section class="section-plans" id="signup">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">399$ <span>/ month</span></p>
@@ -469,7 +476,10 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 
 </html>

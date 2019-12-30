@@ -87,6 +87,16 @@
         padding: 0 4%;
     }
 
+    .logo {
+        height: 50px;
+        width: auto;
+        margin: 25px 0;
+    }
+
+    .hero-text-box {
+        margin-top: 50px;
+    }
+
     .col {
         width: 100%;
         margin: 0 0 4% 0;
@@ -102,6 +112,46 @@
 
     .main-nav {
         display: none;
+    }
+
+    .ham-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        /* margin-top: 35px; */
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 93%;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+
+    .sticky .ham-icon ion-icon {
+        color: #555;
+    }
+
+    .sticky .ham-icon {
+        margin-top: 10px;
     }
 
     h1 {
